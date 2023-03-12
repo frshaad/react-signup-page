@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .inputStyle {
+    box-shadow: 0px 14px 31px -23px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    @apply w-full bg-[#f5f5f5] py-5 px-6 font-light text-lg leading-5 placeholder:text-[#9D9D9D] text-[#343434] outline-none transition focus:shadow-xl focus:scale-[1.01];
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.boxShadow {
+  box-shadow: 0px 14px 31px -23px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+}

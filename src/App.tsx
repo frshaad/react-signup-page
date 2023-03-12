@@ -1,5 +1,5 @@
-const App = () => {
-  return <div>App</div>
-}
+import SignUp from '@/components/SignUpPage'
+
+const App = () => <SignUp />
 
 export default App
