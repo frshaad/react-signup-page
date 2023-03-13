@@ -1,6 +1,6 @@
 const CircleBrownBL = () => (
   <svg
-    className='absolute xl:block hidden left-36 -bottom-24'
+    className='absolute xl:block hidden left-36 bottom-0'
     width='335'
     height='226'
     viewBox='0 0 335 226'
