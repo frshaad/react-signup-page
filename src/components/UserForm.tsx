@@ -3,7 +3,7 @@ type Props = {
   setHasAccount: (a: boolean) => void
 }
 
-const SignUpForm = ({ hasAccount, setHasAccount }: Props) => {
+const UserForm = ({ hasAccount, setHasAccount }: Props) => {
   return (
     <article className='xl:w-1/2 w-full flex flex-col px-6 sm:px-10 md:px-20 justify-center items-center sm:max-w-xl h-full backdrop-blur-xl bg-white dark:bg-[#555] bg-opacity-[0.80] dark:bg-opacity-[0.80]'>
       <div className='flex items-center flex-col'>
@@ -14,10 +14,7 @@ const SignUpForm = ({ hasAccount, setHasAccount }: Props) => {
       </div>
 
       {hasAccount ? (
-        <form
-          action=''
-          className='flex flex-col items-center gap-6 w-full mt-12 mb-6'
-        >
+        <form className='flex flex-col items-center gap-6 w-full mt-12 mb-6'>
           <input type='email' className='inputStyle' placeholder='Email' />
           <input
             type='password'
@@ -78,4 +75,4 @@ const SignUpForm = ({ hasAccount, setHasAccount }: Props) => {
   )
 }
 
-export default SignUpForm
+export default UserForm

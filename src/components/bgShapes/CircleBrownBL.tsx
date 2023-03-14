@@ -17,8 +17,8 @@ const CircleBrownBL = () => (
         y2='335'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#B09227' />
-        <stop offset='1' stop-color='#9C27B0' stop-opacity='0' />
+        <stop stopColor='#B09227' />
+        <stop offset='1' stopColor='#9C27B0' stopOpacity='0' />
       </linearGradient>
     </defs>
   </svg>

@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import BgShapes from './bgShapes'
-import LogInForm from './LogInForm'
-import SignUpForm from './SignUpForm'
+import UserForm from './UserForm'
 import TitleSection from './TitleSection'
 
 const SignUpPage = () => {
@@ -10,9 +9,7 @@ const SignUpPage = () => {
   return (
     <main className='w-screen h-screen flex bg-[#eefcff] dark:bg-[#333] relative'>
       <BgShapes />
-
-      <SignUpForm hasAccount={hasAccount} setHasAccount={setHasAccount} />
-
+      <UserForm hasAccount={hasAccount} setHasAccount={setHasAccount} />
       <TitleSection />
     </main>
   )

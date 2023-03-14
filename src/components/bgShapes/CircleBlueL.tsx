@@ -17,8 +17,8 @@ const CircleBlueL = () => (
         y2='242'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#13D8E5' />
-        <stop offset='1' stop-color='#ADF4F9' />
+        <stop stopColor='#13D8E5' />
+        <stop offset='1' stopColor='#ADF4F9' />
       </linearGradient>
     </defs>
   </svg>

@@ -17,8 +17,8 @@ const circleRedTR = () => (
         y2='247'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#FE2F75' />
-        <stop offset='1' stop-color='#FE6F5E' />
+        <stop stopColor='#FE2F75' />
+        <stop offset='1' stopColor='#FE6F5E' />
       </linearGradient>
     </defs>
   </svg>
